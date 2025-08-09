@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff and Student Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+    }
+
+    img {
+      max-width: 150px;
+      border-radius: 8px;
+      margin: 10px;
+    }
+
+    .flex {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    video, audio {
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background: #4CAF50;
+      color: white;
+    }
+
+    .profile-link {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .profile-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Staff and Student Profile</h1>
+</header>
+
+<section>
+  <h2>Staff Details</h2>
+  <div class="flex">
+    <!-- Clickable image -->
+    <a href="https://srmist.edu.in/faculty/sample-teacher-profile" target="_blank">
+      <img src="staff.jpg" alt="Staff Photo">
+    </a>
+    <div>
+      <!-- Clickable name -->
+      <p><strong>Name:</strong> 
+        <a class="profile-link" href="https://srmist.edu.in/faculty/sample-teacher-profile" target="_blank">
+        BHARANI H 
+        </a>
+      </p>
+      <p><strong>Position:</strong> Assistant Professor, Department of Computing Technologies</p>
+      <p><strong>Email:</strong> bharanih1@srmist.edu.in</p>
+      <a class="profile-link" href="https://srmist.edu.in/faculty/sample-teacher-profile" target="_blank">
+        View Full Profile
+      </a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Student Details</h2>
+  
+  <h3>Accommodation Details</h3>
+  <p>Stays at 2/5 Chellappa Mudali STreet, Otteri <br> Chennai-600012</p>
+  
+  <h3>Education Details</h3>
+  <ul>
+    <li>B.Tech in Computer Science (2023-2027)</li>
+    <li>High School - SBOA Schooll & Junior College</li>
+  </ul>
+
+  <h3>Results</h3>
+  <table>
+    <tr>
+      <th>Semester</th>
+      <th>GPA</th>
+    </tr>
+    <tr>
+      <td>Sem 1</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <td>Sem 2</td>
+      <td>9.18</td>
+    </tr>
+    <tr>
+        <td>Sem 3</td>
+        <td> 9.3</td>
+    </tr>
+    <tr>Sem 4
+        <td>Sem 4</td>
+        <td>9.05</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Honouring a Person</h2>
+  <p>We honour <strong>Dr. APJ Abdul Kalam</strong> for his contribution to science and education.</p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xE4azJ-wro4?si=9SBNraiHGk3sno9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <canvas id="myCanvas" width="400" height="150"></canvas>
+  </center>
+</section>
+
+</body>
+</html>
